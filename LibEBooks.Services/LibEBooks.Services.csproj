@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Bau.Libraries.LibEBooks.Services</RootNamespace>
+    <AssemblyName>LibEBooks.Services</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Common\LibCompressor\src\LibCompressor\LibCompressor.csproj" />
+    <ProjectReference Include="..\..\..\..\..\Common\LibHelper\src\LibHelper.csproj" />
+    <ProjectReference Include="..\..\..\..\..\Common\LibMarkup\src\LibMarkup.csproj" />
+    <ProjectReference Include="..\LibEbooks.Models\LibEbooks.Models.csproj" />
+  </ItemGroup>
+
+</Project>
