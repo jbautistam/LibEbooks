@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>Bau.Libraries.LibEbooks.Models</RootNamespace>
-    <AssemblyName>LibEbooks.Models</AssemblyName>
+	  <TargetFramework>net7.0</TargetFramework>
+	  <RootNamespace>Bau.Libraries.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

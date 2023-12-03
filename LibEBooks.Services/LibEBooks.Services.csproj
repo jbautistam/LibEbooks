@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Bau.Libraries.LibEBooks.Services</RootNamespace>
+    <RootNamespace>Bau.Libraries.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <AssemblyName>LibEBooks.Services</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
