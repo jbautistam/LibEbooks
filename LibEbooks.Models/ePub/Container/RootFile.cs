@@ -6,7 +6,7 @@
 public class RootFile : Base.eBookBase
 { 
 	// Variables privadas
-	private string _url = default!;;
+	private string _url = default!;
 
 	/// <summary>
 	///		Tipo de medio
